@@ -7,3 +7,7 @@ h1{
 .paginaBackground{
     background-color: #ffffed;
 }
+.imgdim{
+    width: 18rem !important;
+    height: 18rem !important;
+}

@@ -1,78 +1,130 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Pizzeria Cima</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@300&family=Playfair+Display:ital,wght@1,500&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@300&family=Playfair+Display:ital,wght@1,500&family=Ubuntu:wght@500&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-  </head>
-  <body class="paginaBackground">
+</head>
+
+<body class="paginaBackground">
     <nav class="navbar navbar-expand-lg bg-success position-fixed z-3 w-100 navbar-dark">
-            <div class="container-fluid">
-             <div class="col-1 col-md-1">
-                <a class="navbar-brand" href="#nav"><img class="img-fluid" src="https://cdn.pixabay.com/photo/2020/03/08/16/04/pizza-4912871_960_720.png" alt="imgLogo"></a>
-            </div>       
-                <button class="navbar-toggler position-absolute end-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="justify-content-end me-5">
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link fs-4 text-white" href="#chi-siamo">Chi siamo</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link fs-4 text-white" href="#menu">Menu'</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link fs-4 text-white" href="#contatti">Contatti</a>
-                            </li>
-                        </ul>
-                    </div>
+        <div class="container-fluid">
+            <div class="col-1 col-md-1">
+                <a class="navbar-brand" href="#nav"><img class="img-fluid"
+                        src="https://cdn.pixabay.com/photo/2020/03/08/16/04/pizza-4912871_960_720.png"
+                        alt="imgLogo"></a>
+            </div>
+            <button class="navbar-toggler position-absolute end-0" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="justify-content-end me-5">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link fs-4 text-white" href="#chi-siamo">Chi siamo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-4 text-white" href="#menu">Menu'</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-4 text-white" href="#contatti">Contatti</a>
+                        </li>
+                    </ul>
                 </div>
-        </div>
-      </nav>
-      <section class="container-fluid" id="nav">
-        <div class="row">
-            <div class="col-12 col-md-12">
-                <figure class="position-relative">
-                    <img class="img-fluid w-100" src="https://www.visitberlin.de/system/files/styles/visitberlin_hero_visitberlin_desktop_2x/private/image/Pizza_heart_GettyImages-726774391_Denis_Tevekov_web_0.jpg?h=c9f93661&itok=A12XL918" alt="ImmaginePizza">
-                    <figcaption class="position-absolute bottom-0 start-0 mx-5 mb-5 text-white"><h1>Pizzeria Cima</h1></figcaption>
-                </figure>
             </div>
         </div>
-      </section>
-      <section class="container" id="chi-siamo">
+    </nav>
+    <section class="container-fluid" id="nav">
+        <div class="row">
+            <div class="col-12 col-md-12">
+                <div id="carouselExample" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="img-fluid w-100 position-relative"
+                                src="https://thumbs.dreamstime.com/b/pizza-36924315.jpg" class="d-block w-100"
+                                alt="imgPizza1">
+                            <div class="position-absolute start-0 bottom-0 text-light fs-3">
+                                Pizzeria Cima
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="img-fluid w-100 position-relative"
+                                src="https://images.unsplash.com/photo-1604382354936-07c5d9983bd3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8NXx8fGVufDB8fHx8fA%3D%3D&w=1000&q=80"
+                                class="d-block w-100" alt="imgPizza2">
+                            <div class="position-absolute start-0 bottom-0 text-light fs-3">
+                                Bella ragazzi
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="img-fluid w-100 position-relative"
+                                src="https://media.gettyimages.com/id/184946701/it/foto/pizza.jpg?s=612x612&w=gi&k=20&c=6y1hn_eu8jcPxZsxxxyzQEI_mo6MiR5fxk6UWJ4Dja8="
+                                class="d-block w-100" alt="imgPizza2">
+                            <div class="position-absolute start-0 bottom-0 text-light fs-3">
+                                SIUM
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container mt-5" id="chi-siamo">
         <div class="row">
             <div class="col-12 col-md-6">
-                    <img class="img-fluid" src="https://media.istockphoto.com/id/1358406303/photo/close-up-image-of-sliced-pepperoni-pizza-on-round-wooden-chopping-board-and-margherita-on.jpg?s=612x612&w=0&k=20&c=LFJtB89-oFX2ZqTiHOUBHS9Eoel4SHEKF2YvUaUo67o=" alt="ImmaginePizzaTagliere">
+                <img class="img-fluid"
+                    src="https://media.istockphoto.com/id/1358406303/photo/close-up-image-of-sliced-pepperoni-pizza-on-round-wooden-chopping-board-and-margherita-on.jpg?s=612x612&w=0&k=20&c=LFJtB89-oFX2ZqTiHOUBHS9Eoel4SHEKF2YvUaUo67o="
+                    alt="ImmaginePizzaTagliere">
             </div>
             <div class="col-12 col-md-6">
                 <div class="d-flex justify-content-center">
-                    <p class="fs-1"><strong>About Catering</strong></p> 
+                    <p class="fs-1"><strong>About Catering</strong></p>
                 </div>
                 <p class="d-flex justify-content-center fs-4">
                     Tradition since 1889
                 </p>
                 <p class="d-flex justify-content-center fs-4">
-                    The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.We only use seasonal ingredients.
+                    The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                    ea commodo consequat. Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu
+                    fugiat nulla pariatur.We only use seasonal ingredients.
                 </p>
                 <p class="d-flex justify-content-center fs-4">
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+                    est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    commodo consequat.
                 </p>
             </div>
         </div>
-      </section>
-      <hr>
-      <section class="container" id="menu">
+    </section>
+    <hr>
+    <section class="container" id="menu">
         <div class="row">
             <div class="col-12 col-md-6">
                 <div class="d-flex justify-content-center">
-                    <p class="fs-1"><strong>Menu</strong></p> 
+                    <p class="fs-1"><strong>Menu</strong></p>
                 </div>
                 <p class="d-flex justify-content-start fs-4">
                     Bread Basket
@@ -106,32 +158,89 @@
                 </p>
             </div>
             <div class="col-12 col-md-6">
-                <img class="img-fluid" src="https://previews.123rf.com/images/kumer/kumer1606/kumer160600023/58201982-realistic-pizza-pizzeria-flyer-vector-background-two-vertical-pizza-banners-with-ingredients-and.jpg" alt="imgPizzaBella">
+                <img class="img-fluid"
+                    src="https://previews.123rf.com/images/kumer/kumer1606/kumer160600023/58201982-realistic-pizza-pizzeria-flyer-vector-background-two-vertical-pizza-banners-with-ingredients-and.jpg"
+                    alt="imgPizzaBella">
             </div>
         </div>
-      </section>
-      <hr>
-      <section id="contatti">
+    </section>
+    <hr>
+    <section id="contatti">
         <p class="fs-1 ms-5"><strong>Contatti</strong></p>
-        <div class="f-6 mx-5 pt-3">We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste. Do not hesitate to contact us.</div>
-        <div class="f-6 mx-5 pt-3 text-primary-emphasis"><strong>Catering Service, 42nd Living St, 43043 New York, NY</strong></div>
-        <div class="f-6 mx-5 pt-3">You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a message here:</div>
+        <div class="f-6 mx-5 pt-3">We offer full-service catering for any event, large or small. We understand your
+            needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste. Do not
+            hesitate to contact us.</div>
+        <div class="f-6 mx-5 pt-3 text-primary-emphasis"><strong>Catering Service, 42nd Living St, 43043 New York,
+                NY</strong></div>
+        <div class="f-6 mx-5 pt-3">You can also contact us by phone 00553123-2323 or email catering@catering.com, or you
+            can send us a message here:</div>
         <form class="my-5">
             <div class="mb-3 mx-5">
-              <input type="text" class="form-control border-0 border-bottom" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Inserisci nome">
+                <input type="text" class="form-control border-0 border-bottom" id="exampleInputEmail1"
+                    aria-describedby="emailHelp" placeholder="Inserisci nome">
             </div>
             <div class="mb-3 mx-5">
-              <input type="number" class="form-control border-0 border-bottom" id="exampleInputPassword1" placeholder="Quante persone">
+                <input type="number" class="form-control border-0 border-bottom" id="exampleInputPassword1"
+                    placeholder="Quante persone">
             </div>
             <div class="mb-3 mx-5">
-                <input type="datetime-local" class="form-control border-0 border-bottom" id="exampleInputPassword1" value="2023-05-23T20:00">
-              </div>
-              <div class="mb-3 mx-5">
-                <input type="text" class="form-control border-0 border-bottom" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Inserisci un messaggio">
-              </div>
+                <input type="datetime-local" class="form-control border-0 border-bottom" id="exampleInputPassword1"
+                    value="2023-05-23T20:00">
+            </div>
+            <div class="mb-3 mx-5">
+                <input type="text" class="form-control border-0 border-bottom" id="exampleInputEmail1"
+                    aria-describedby="emailHelp" placeholder="Inserisci un messaggio">
+            </div>
             <button type="submit" class="btn btn-primary mt-3 ms-5 bg-dark rounded-5">Send Message</button>
-          </form>
-      </section>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-  </body>
+        </form>
+    </section>
+    <hr>
+    <p class="fs-1 ms-5 mb-5"><strong>Pubblicità</strong></p>
+    <section class="container">
+        <div class="row text-center ">
+            <div class="col-12 col-md-4">
+                <div class="card align-items-center">
+                    <img class="img-fluid imgdim" src="https://m.media-amazon.com/images/I/61-G3GjkaBL._AC_SY450_.jpg"
+                        class="card-img-top" alt="portatile1">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="card align-items-center">
+                    <img class="img-fluid imgdim" src="https://m.media-amazon.com/images/I/61O1TxLKNNL._AC_SY450_.jpg"
+                        class="card-img-top" alt="portatile2">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="card align-items-center">
+                    <img class="img-fluid imgdim" src="https://www.hwupgrade.it/i/n/lenovoideapadgaming3_720.jpg"
+                        class="card-img-top" alt="portatile3">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
